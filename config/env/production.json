@@ -1,0 +1,29 @@
+{
+	"host": {
+		"port": "3200"
+	},
+	"mongodb": {
+		"host": "mongodb://localhost:27017/",
+		"db_name": "db_name_here",
+		"credentials": {
+			"username": "",
+			"password": ""
+		}
+	},
+	"redis": {
+		"host": "localhost",
+		"port": 6379
+	},
+	"session": {
+		"secret": "*&secretkeyhere&#"
+	},
+	"resetPassCodeLength": 4,
+	"verificationCodeLength": 4,
+	"confirmationCodeLength": 4,
+	"verifyAcctCodeExpiryMinutes": 3600,
+	"forgetPassCodeExpiryMinutes": 3600,
+	"confirmAcctCodeExpiryMinutes": 3600,
+	"resetPassCodeExpiryMinutes": 3600,
+	"postedJobApplicantsIntervalInMinutes": 5,
+
+}

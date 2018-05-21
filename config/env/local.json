@@ -1,0 +1,67 @@
+{
+  "host": {
+    "port": "3200"
+  },
+  "mongodb": {
+    "host": "mongodb://192.168.1.9:27017/",
+    "db_name": "db_name_here",
+    "credentials": {
+      "username": "",
+      "password": ""
+    }
+  },
+  "redis": {
+    "host": "localhost",
+    "port": 6379
+  },
+  "session": {
+    "secret": "*&secretkeyhere&#"
+  },
+  "mailer": {
+    "options": {
+      "service": "sendgrid",
+      "auth": {
+        "user": "AhmedHassan",
+        "pass": "AhmedHassan1",
+        "host": "smtp.sendgrid.net",
+        "port": 465,
+        "secure": true
+      }
+    },
+    "fromAddress": "info@labourchoice.com"
+  },
+  "resetPassCodeLength": 6,
+  "verificationCodeLength": 6,
+  "confirmationCodeLength": 6,
+  "verifyAcctCodeExpiryMinutes": 10,
+  "forgetPassCodeExpiryMinutes": 10,
+  "confirmAcctCodeExpiryMinutes": 10,
+  "resetPassCodeExpiryMinutes": 10,
+  "postedJobApplicantsIntervalInMinutes": 5,
+  "aws": {
+    "s3": {
+      "secretAccessKey": "jpBaKg3o1I28y6L/ayMqK9yxSayOuM5QIPw0u5gU",
+      "accessKeyId": "AKIAJD45QS2A4C222VBQ",
+      "region": "us-west-2",
+      "bucket": "labour-choice",
+      "profileImageDirectory": "user-profile-images"
+    }
+  },
+  "twilio": {
+    "account_sid": "AC028115fcdfb5b4b76a1e43008738ce2c",
+    "auth_token": "ab3a93c06b05ee16a26f00af600ca471",
+    "phone_number": "+61437882674"
+  },
+  "brainTree": {
+    "environment": "Sandbox",
+    "merchantId": "c8m8q73c468f98w9",
+    "publicKey": "m8c7px45g2qbpyz9",
+    "privateKey": "c3d5c1aa54f095154868c97645ab33f5",
+    "merchantAccountId": "labourchoiceptyltd"
+  },
+  "googleMapsAPI": "AIzaSyB7_qOlzpbC4e9IGe90W8FZu3bi8ur0dBQ",
+  "stripe": {
+    "publishableKey": "pk_test_JaAoOUNzZ1rPTSgraDLVZlOs",
+    "secretKey": "sk_test_mz5MXurz74YILqWsUXQK1dLg"
+  }
+}
